@@ -56,7 +56,6 @@ $(() => {
 
 			$('.comms-name').add('.comms-pronouns').text('');
 			$('.raceTime').text('');
-			// console.log(customData)
 			Object.entries(customData).map(([key, val] = entry) => {
 				if(key.includes("Pronouns")) {
 					val = '[' + val + ']'
