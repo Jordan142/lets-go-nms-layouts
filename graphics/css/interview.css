@@ -1,0 +1,36 @@
+/* Commentator name and pronouns panel. */
+.comms-container {
+	position: absolute;
+	display: flex;
+	color: #FFFFFF;
+	font-size: 32pt;
+	width: 590px;
+	height: 74px;
+	line-height: 74px;
+	-webkit-text-stroke: 1.3px #22252a;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.comms-pronouns {
+	font-size: 26pt;
+}
+
+/* Comms 1 info position. */
+#comms-container1 {
+	left: 30px;
+	top: 608px;
+}
+
+/* Comms 2 info position. */
+#comms-container2 {
+	left: 660px;
+	top: 608px;
+}
+
+/* Comms 3 info position. */
+#comms-container3 {
+	left: 1290px;
+	top: 608px;
+}

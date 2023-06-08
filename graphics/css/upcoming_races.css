@@ -1,0 +1,201 @@
+/* Donation Total panel. */
+/* #donation-total {
+	font-size: 108pt;
+	font-stretch: semi-condensed;
+	width: 420px;
+	line-height: 180px;
+	text-align: center;
+	position: absolute;
+	top: 30px;
+	left: 1392px;
+	
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	border: 2px solid transparent;
+} */
+
+/* Host panel. */
+/* #host-container {
+    font-size: 30pt;
+    height: 59px;
+    line-height: 59px;
+    position: absolute;
+    top: 856px;
+    left: -8px;
+	
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	border: 2px solid transparent;
+} */
+
+/* Up Next label. */
+/* #up-next-label {
+	font-size: 24pt;
+	width: 642px;
+	position: absolute;
+	top: 226px;
+	left: 1240px;
+	
+	border: 2px solid transparent;
+} */
+
+/* Game panel. */
+/* #up-next-game {
+	font-size: 60pt;
+	font-stretch: semi-condensed;
+	width: 650px;
+	line-height: 132px;
+	position: absolute;
+	top: 270px;
+	left: 1240px;
+	
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	border: 2px solid transparent;
+} */
+
+/* Up Next info panel. */
+/* #up-next-info-container {
+	width: 596px;
+	line-height: 65px;
+	position: absolute;
+	top: 405px;
+	left: 1296px;
+	
+	padding-left: 15px;
+	padding-right: 7.5px;
+	
+	border: 2px solid transparent;	
+} */
+
+/* Runner name dynamic text. */
+/* #up-next-info {
+	max-width: 444px;
+	
+	border: 2px solid transparent;	
+} */
+
+/* On Deck label. */
+/* #on-deck-label {
+	font-size: 24pt;
+	width: 573px;
+	position: absolute;
+	top: 519px;
+	left: 1320px;
+	
+} */
+
+/* On deck game 1. */
+/* #on-deck-game1 {
+	font-size: 54pt;
+	font-stretch: semi-condensed;
+	width: 572px;
+	line-height: 110px;
+	position: absolute;
+	top: 561px;
+	left: 1320px;
+	
+	padding-left: 15px;
+	padding-right: 7.5px;
+	
+} */
+
+/* On deck info container. */
+.on-deck-info-container {
+	/* font-family: 'Swagger Bold'; */
+	font-family: 'Comic Sans Bold';
+	display: inline-block;
+	width: 1500px;
+	line-height: 70px;
+	position: absolute;
+	color: black;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+/* On deck info panel 1. */
+#on-deck-info-container1 {
+	top: 140px;
+	left: 210px;
+}
+
+/* On deck info panel 2. */
+#on-deck-info-container2 {
+	top: 340px;
+	left: 210px;
+}
+
+/* On deck info panel 3. */
+#on-deck-info-container3 {
+	top: 540px;
+	left: 210px;
+}
+
+/* Info panel options. Don't change unless you know what you're doing! */
+.info {
+	margin-top: 3px;
+	font-size: 80px;
+	font-stretch: semi-condensed;
+	float: left;
+	vertical-align: top;
+	width: 100%;
+	flex: 1;
+	/* -webkit-text-stroke: 1px #22252a; */
+	/* -webkit-text-stroke: 2.5px #7b4724; */
+	/* -webkit-text-stroke: 2px black; */
+}
+
+.tech-info-container {
+	display: flex;
+	font-stretch: normal;
+	width: 100%;
+}
+
+.tech-info-label {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.tech-info {
+	display: inline-block;
+	font-stretch: normal;
+	/* font-size: 20pt; */
+	margin-top: 6px;
+	/* -webkit-text-stroke: 1px #22252a; */
+}
+
+.tech-info-label img {
+	height: 35pt;
+	width: 100%;
+	margin-top: 13px;
+}
+
+.on-deck-start {
+	display: inline-block;
+	font-stretch: normal;
+	width: 70%;
+	/* font-size: 20pt; */
+	margin-top: 6px;
+	margin-left: 10px;
+	/* -webkit-text-stroke: 1px #22252a; */
+	font-size: 35pt;
+	/* -webkit-text-stroke: 1.5px #7b4724; */
+	/* -webkit-text-stroke: 1.5px black; */
+}
+
+.on-deck-channel {
+	display: inline-block;
+	font-stretch: normal;
+	/* font-size: 20pt; */
+	/* margin-top: 6px; */
+	margin-left: 10px;
+	/* -webkit-text-stroke: 1px #22252a; */
+	font-size: 30pt;
+	/* -webkit-text-stroke: 1.5px #7b4724; */
+	/* -webkit-text-stroke: 1.5px black; */
+}
