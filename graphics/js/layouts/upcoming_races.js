@@ -68,15 +68,13 @@ function refreshNextRunsData(currentRun) {
 		// let onDeckEstimate = '#on-deck-estimate' + (i + 1); // Commented out as I don't need the estimate for the Lets Go tournament
 		let onDeckStart = '#on-deck-start' + (i + 1);
 		let onDeckChannel = '#on-deck-channel' + (i + 1);
-		let onDeckCalander = '#calander' + (i+1);
-		let onDeckTwitchLogo = '#twitch-logo' + (i+1);
 		fadeHtml(onDeckGame, run.game, true);
 		fadeHtml(onDeckRunner, getNamesForRun(run).join(' vs. '), true); // Change .vs to , once tournament is done
 		// fadeHtml(onDeckEstimate, run.estimate, true); // Commented out as I don't need the estimate for the Lets Go tournament
 		if (run.customData.raceTime == undefined) {
 			fadeHtml(onDeckStart, 'TBC', true);
 		} else {
-			fadeHtml(onDeckStart, run.customData.raceTime, true);
+			fadeHtml(onDeckStart, run.customData.raceTime + ' ET', true);
 		}
 		if (run.customData.channel == undefined) {
 			fadeHtml(onDeckChannel, 'TBC', true);
