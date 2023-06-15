@@ -1,0 +1,73 @@
+/* Runner and pronouns panel. */
+.runner-container {
+	width: 1175px;
+	height: 70px;
+	line-height: 70px;
+	-webkit-text-stroke: 1.5px #22252a;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Runner name dynamic text. */
+.runner-name {
+	/* max-width: 465px; */
+	font-size: 32pt;
+}
+
+.pronouns {
+	font-size: 26pt;
+}
+
+/* Player 1 info position. */
+#runner-container1 {
+	left: 720px;
+	top: 678px;
+}
+
+/* Commentator name and pronouns panel. */
+.comms-container {
+	position: absolute;
+	display: flex;
+	color: #FFFFFF;
+	font-size: 24pt;
+	width: 438px;
+	height: 50px;
+	line-height: 50px;
+	-webkit-text-stroke: 1px #22252a;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.comms-pronouns {
+	font-size: 20pt;
+}
+
+/* Comms 1 info position. */
+#comms-container1 {
+	left: 501px;
+	top: 841px;
+}
+
+/* Comms 2 info position. */
+#comms-container2 {
+	left: 501px;
+	top: 911px;
+}
+
+/* Comms 3 info position. */
+#comms-container3 {
+	left: 501px;
+	top: 981px;
+}
+
+/* Timer panel. */
+#timer {
+	font-size: 73pt;
+	width: 441px;
+	height: 120px;
+	line-height: 120px;
+	left: 25px;
+	top: 912px;
+}
