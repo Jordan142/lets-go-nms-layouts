@@ -54,10 +54,10 @@ $(() => {
 						completedID.push(team.id);
 						setMedal()
 					}
-					if (runData.teams.length > 1 && newVal.teamFinishTimes[team.id].state === 'forfeit' && !completedID.includes(team.id)) {
-						completedID.push(team.id);
-						setForfeit()
-					}
+					// if (runData.teams.length > 1 && newVal.teamFinishTimes[team.id].state === 'forfeit' && !completedID.includes(team.id)) {
+					// 	completedID.push(team.id);
+					// 	setForfeit()
+					// }
 					if (newVal.milliseconds < oldVal.milliseconds && newVal.milliseconds === 0)
 						resetMedals();
 				}
