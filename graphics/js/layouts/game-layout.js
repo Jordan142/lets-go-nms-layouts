@@ -37,8 +37,6 @@ $(() => {
 			for (let team of currentTeamsData) {
 				for (let player of team.players) {
 					fadeText('#runner-name' + (i + 1), player.name, true);
-					console.log(player.customData);
-					console.log(player.customData.runnerGame);
 					let pronoun = '[' + player.pronouns + ']';
 					if (pronoun === '[undefined]')
 						pronoun = '';
