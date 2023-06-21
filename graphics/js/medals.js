@@ -54,11 +54,11 @@ $(() => {
 				try {
 					if (runData.teams.length > 1 && newVal.teamFinishTimes[team.id].state === 'completed' && !completedID.includes(team.id)) {
 						completedID.push(team.id);
-						setMedal()
+						setMedal();
 					}
 					if (runData.teams.length > 1 && newVal.teamFinishTimes[team.id].state === 'forfeit' && !completedID.includes(team.id)) {
 						forfeitID.push(team.id);
-						setForfeit()
+						setForfeit();
 					}
 					if (newVal.milliseconds < oldVal.milliseconds && newVal.milliseconds === 0)
 						resetMedals();
@@ -98,8 +98,6 @@ $(() => {
 	}
 
 	function removeMedal(id) {
-		let z = completedID.indexOf(id);
-		let y = forfeitID.indexOf(id);
 		if (completedID.indexOf(id) > -1) {
 			let n = completedID.indexOf(id);
 			completedID.splice(n, 1);
@@ -108,7 +106,8 @@ $(() => {
 				$('#medals' + (k) + '-img').attr('src', POKEBALL_IMGS[4]);
 			}
 			setMedal(completedID[0]);
-		} else if (forfeitID.indexOf(id) > -1) {
+		}
+		if (forfeitID.indexOf(id) > -1) {
 			let n = forfeitID.indexOf(id);
 			forfeitID.splice(n, 1);
 			for (let k = 1; k < 5; k++) {
