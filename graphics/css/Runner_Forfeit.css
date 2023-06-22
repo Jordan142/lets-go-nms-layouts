@@ -1,5 +1,7 @@
 /* Runner and pronouns panel. */
 .runner-container {
+	left: 5px;
+	top: 5px;
 	width: 930px;
 	height: 70px;
 	line-height: 70px;
@@ -9,20 +11,14 @@
 	padding-right: 10px;
 }
 
-/* Player 1 info position. */
-#runner-container2 {
-	left: 5px;
-	top: 5px;
-}
-
-#runner-name2 {
+.runner-name {
 	font-size: 36pt;
 }
 
-#pronouns2 {
+.pronouns {
 	font-size: 30pt;
 }
 
-#finalTime2 {
+.finalTime {
 	font-size: 30pt;
 }
