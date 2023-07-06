@@ -73,6 +73,9 @@ $(() => {
 
 	function setMedal() {
 		let n = 0;
+		completedID.sort(function(a, b) {
+			return timer.value.teamFinishTimes[a].milliseconds - timer.value.teamFinishTimes[b].milliseconds;
+		})
 		for (let i = 0; i < completedID.length; i++) {
 			for (let k = 0; k < runData.teams.length; k++) {
 				if (runData.teams[k].id === completedID[i]) {
